@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- list of html  1.unordered list <ul/>  2.ordered list  3.description list -->
+    <header>
+
+    </header>
+    <main>
+        <!-- this is unordered list -->
+        <ul>
+            <li>apple</li>
+            <ul>
+                <li>colour :red</li>
+                <li>hello  guy</li>
+            </ul>
+            <li>banana</li>
+            <li>orange</li>
+
+        </ul>
+        <ol>
+            <li>apple</li>
+            <ol>
+                <li>colour :red</li>
+                <li>hello  guy</li>
+            </ol>
+            <li>banana</li>
+            <li>orange</li>
+        </ol>
+        
+        <!-- html table tag  1.<tr></tr>  2.<td></td>  3.<th></th>  -->
+
+        <table>
+            <thead>
+            <!-- caption in table <caption></caption> -->
+            <caption>student list</caption>
+
+            <tr>
+                <th>
+                    name
+                </th>
+                <th>
+                    roll no
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    OM kumar
+                </th>
+                <th>
+                    620
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    JAY 
+                </th>
+                <th>
+                    621
+                </th>
+            </tr>
+        </tbody>
+        </table>
+        <table>
+            <thead>
+            <!-- caption in table <caption></caption> -->
+            <caption>student list</caption>
+
+            <tr>
+                <th colspan="2">
+                    Information
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    OM kumar
+                </th>
+                <th>
+                    620
+                </th>
+            </tr>
+
+            <tr>
+                <th>
+                    JAY 
+                </th>
+                <th>
+                    621
+                </th>
+            </tr>
+        </tbody>
+        </table>
+<!-- form are used to collect data from the user  like 1.sign up  2.login  etc.-->
+    <from action="/action.php">
+        <!-- input type tag -->
+        <input type="text" placeholder="type here">
+        <br/>
+        <input type="password" placeholder="password">
+        <br/>
+
+        <label for="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+    <label for ="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII
+    </label>
+      <br/>
+    
+        <input type="radio" value="class XI" name="class">class XI
+        <input type="radio" value="class XII" name="class">class XII
+    <br>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">math
+        </label>
+        <br>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102">physics
+        </label>
+        <br>
+        <label for="cs">
+            <input type="checkbox" value="cs" name="subject" id="103">cs
+        </label>
+        <br><br>
+
+        <select name="citiy">
+            <option value="delhi">delhi</option>
+            <option value="mumbai">mumbai</option>
+            <option value="kolkata">kolkata</option>
+        </select>
+        <br><br>
+
+        <textarea name ="feedback" id="101" placeholder="What should be improvement in this">feedback</textarea>
+
+        <input type="submit" value="submit">
+    </from> 
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ez8F0nW6S-w?si=qaihA90Sgs9lDHpi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://chatgpt.com/"></iframe>
+    <br><br>
+
+    <video> </video>
+        
+    </main>
+
+    <footer></footer>
+        
+</body>
+</html>
