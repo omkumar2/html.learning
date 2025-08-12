@@ -1,0 +1,28 @@
+*{
+    color:blue
+}
+
+h1 {
+    color : rgb(223, 21, 21);
+}
+
+#headingone{
+    color: rgb(0, 0, 0);
+}
+
+.myclass{
+    color: rgb(220, 110, 0);
+}
+
+p {
+    color:rgb(11, 10, 1);
+}
+
+button {
+    color :blueviolet;
+    background-color: rgb(244, 249, 247);
+}
+
+body {
+    background-color: #ffff00;
+}
