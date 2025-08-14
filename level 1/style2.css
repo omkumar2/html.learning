@@ -1,0 +1,68 @@
+p {
+    /* text-align:right; */
+    text-align:center;
+    /* text-align:end; */
+}
+
+/* font-family is used to set the font of the text, like Arial, Helvetica, sans-serif, etc. */
+
+#one {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#two {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: 100;
+}
+
+h1 {
+    text-align: center;
+    /* text-decoration: underline;
+    text-decoration: overline; */
+    text-decoration: line-through;
+    text-decoration: red wavy underline;
+}
+
+/* font-weight is used to set the weight of the font, like bold, normal, bolder, lighter, etc. */
+
+#h2 {
+    font-weight: 250;
+}
+
+#h3 {
+    font-weight: 600;
+}
+
+#h4 {
+    font-weight: 900;
+}
+
+/* Absolute(px) is used ti set the size of the text, like 12px, 14px, 16px, etc. */
+
+#three {
+    font-size: 50px
+}
+
+#four {
+    font-size: 30px;
+}
+
+#five {
+    font-size: 1px;
+}
+
+/* line-height is used to set the height of the line, like 1.5, 2, 3, etc. */
+/* text-transform is used to set the case of the text, like uppercase, lowercase, capitalize, none etc. */
+
+#six {
+    font-size:25px;
+    line-height: normal;
+    /* line-height: 25px0; */
+    text-transform: capitalize;
+}
+
+
+
