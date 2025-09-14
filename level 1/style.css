@@ -7,7 +7,7 @@ h1 {
 }
 
 #headingone{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 
 .myclass{
@@ -24,5 +24,5 @@ button {
 }
 
 body {
-    background-color: #ffff00;
+    background-color: #ffffff;
 }
