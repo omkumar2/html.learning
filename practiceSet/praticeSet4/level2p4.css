@@ -7,6 +7,7 @@
 #navbar {
     height: 60px;
     background-color: #0f1111;
+    
 }
 
 button {
@@ -25,12 +26,22 @@ a {
     text-decoration: none;
 }
 
+#content {
+    min-height: 609px;
+    background-color: #1a1c1c;
+    text-align: center;
+    padding-top: 20px;
+}
+
 footer {
-    color: #0f1111;
+    color: #ffffff;
+    background-color: #0f1111;
+    text-align: center;
 }
 
 .contentBox {
     height: 100px;
     width: 100px;
     border: 2px solid black;
+    display: inline-block;
 }
