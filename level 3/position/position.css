@@ -1,0 +1,46 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(86, 190, 225);
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#box1 {
+    position: static;         /*default position (The top , right, bottom , left , and z-index properties have no effect) */
+
+}
+
+#box2 {
+    position: relative;       /*relative to its normal position */
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    background-color: rgb(255, 99, 71);
+}
+
+/* #box3 {
+    position: absolute;    /*relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)  
+    top: 500px;
+    left: 20px;
+    background-color: rgb(162, 238, 80);
+} */
+
+#box3 {
+    z-index: 2;      /*z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) */
+    position: sticky;       /*relative to the viewport, until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed) */
+    top: 20px;
+    left: 10px;
+    background-color: rgb(255, 99, 71);
+
+}
+
+#box4 {
+    position: fixed;       /*relative to the viewport, which means it always stays in the same place even if the page is scrolled */
+    top: 0px;
+    left: 10px;
+    /* right: 10px;
+    bottom: 20px; */
+    background-color: rgb(255, 216, 0);
+}

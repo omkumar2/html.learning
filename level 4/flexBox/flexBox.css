@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+
+#container {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    
+    flex-direction: row;   /*it is row by default and there are other options like column, row-reverse, column-reverse */
+    
+    justify-content: space-evenly; /*it is flex-start by default and there are other options like center, flex-end, space-between, space-around */
+    
+    /*flex-wrap: wrap; /*it is nowrap by default and there are other options like wrap, wrap-reverse */
+    
+    align-items: flex-start; /*it is stretch by default and there are other options like flex-start, flex-end, center, baseline */
+    
+    /*align-content: center; /*it is stretch by default and there are other options like flex-start, flex-end, center, space-between, space-around */
+
+
+}
+
+#box1 {
+    background-color: rgb(251, 70, 70);
+}
+
+#box2 {
+    background-color: rgb(84, 84, 255);
+    height: 200px;
+    /*flex-shrink: 0; /*it is 1 by default and there are other options like 0, 3, 4, etc. It defines how much the item will shrink relative to the rest of the flexible items inside the same container when there isn't enough space on the row */
+}
+
+#box3 {
+    background-color: green;
+    height: 150px;
+    flex-grow: 2; /*it is 0 by default and there are other options like 1, 3, 4, etc. It defines how much the item will grow relative to the rest of the flexible items inside the same container when there is extra space on the row */;
+}
+
+#box4 {
+    background-color: rgb(245, 245, 88);
+}
+
+#box5 {
+    background-color: rgb(224, 0, 224);
+    /*align-self: flex-end; /*it is auto by default and there are other options like flex-start, flex-end, center, baseline, stretch */
+}

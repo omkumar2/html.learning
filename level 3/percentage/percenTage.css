@@ -1,0 +1,16 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(48, 210, 232);
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: rgb(230, 66, 66);
+    margin-left: 10%;
+    font-size: 2em;   /* em stands for the font size of the parent element */
+    width: 5rem;    /* rem stands for the font size of the root element */
+
+}

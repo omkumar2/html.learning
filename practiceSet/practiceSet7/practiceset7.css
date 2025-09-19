@@ -1,0 +1,29 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 191, 255);
+}
+
+@media (max-width: 600px) {
+    div {
+        background-color: rgb(0, 255, 76);
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    div {
+        background-color: rgb(45, 97, 255);
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    div {
+        background-color: rgb(255, 0, 110);
+    }
+}
+
+@media (max-width: 600px) {
+    div {
+        background-color: salmon;
+    }
+}

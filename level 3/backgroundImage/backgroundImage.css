@@ -1,0 +1,16 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(86, 190, 225);
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#box1 {
+    background-image: url("background.jpg");
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: auto; */
+
+} 
