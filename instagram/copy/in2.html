@@ -6,6 +6,13 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>copy this</h1>
   
 </body>
+<script>
+  document.addEventListener("copy", function(event) {
+    event.clipboardData.setData("text/plain", "fuck you.");
+    event.preventDefault();
+  });
+</script>
 </html>
