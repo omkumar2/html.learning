@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(hello1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.logo span {
+    color: #ff4b2b;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff4b2b;
+    transition: .5s;
+}
+
+.login {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.register {
+    color: #ffffff;
+    text-decoration: none;
+    background: #ff4b2b;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 12%;
+    max-width: 600px;
+}
+
+.content h3 {
+    font-size: 55px;
+    color: #ff4b2b;
+}
+
+.content p {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link .hire {
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+.link .hire:hover {
+    background: #ff4b2b;
+    color: #fff;
+    transition: .5s;
+}
+
+.animetion {    
+    display: flex;
+    align-items: center;
+    justify-self: left;
+    height: 1;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Geologic', sans-serif;
+}
+
+.animetion h1 {
+    font-size: 3.0em;
+}
+
+.animetion h1 > span {
+    position: relative;
+    display: inline-block;
+    color: #ff4b2b;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+.animetion h1 > span > span {
+    display: block;
+    animation: animateWord 5s infinite ease;
+
+}
+
+@keyframes animateWord {
+    0% {
+        transform: translateY(0%);
+    }
+    20% {
+        transform: translateY(-100%);
+    }
+    40% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-300%);
+    }
+    80% {
+        transform: translateY(-400%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
